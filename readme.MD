@@ -59,11 +59,11 @@ Ce guide vous explique comment installer et configurer un serveur DHCP, un serve
      - Identifiant : `laplateforme`
      - Mot de passe : `Marseille13!`
 
-`
+```bash
 groupadd ftp2100
 useradd -m -g ftp2100 -s /bin/bash laplateforme
 passwd laplateforme
-`
+```
 
 3. **Utilisation de SFTP** :
    - Utilisez le serveur SSH pour les connexions FTP en SFTP pour renforcer la sécurité.
